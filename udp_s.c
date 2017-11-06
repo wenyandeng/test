@@ -8,6 +8,10 @@
 #define LOCAL_PORT 8890
 #define LOCAL_IP   "127.0.0.1"
 #define udp_printf printf
+int process_msg(void);
+{
+	return 0;
+}
 
 int main(int argc, char *argv[])
 {
